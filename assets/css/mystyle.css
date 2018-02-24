@@ -44,12 +44,13 @@ a {
 
 body {
     background-color: #EAECEE;
+    font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
 }
 
 h1 {
     text-align: center;
     margin-top: 40px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 6ex;
     font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
 }
