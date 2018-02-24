@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>{{ page.title }} &mdash; A Hacker's Memorandum</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/assets/css/mystyle.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="{{ site.url }}">
+            <div class="main_img">
+                </div>
+                <div class="prof">
+                    <img src="/assets/images/djPbpFCH_400x400.jpg" width="120" height="120" />
+                  </div>
+      </a>
+      </header>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+                <a href="{{ site.url }}" class="nodeco">
+                    <h1>A Hacker's Memorandum</h1>
+                </a>
+                <div class="author"><a href="https://twitter.com/snaga">Satoshi Nagayasu</a></div>
+          </div> <!-- /col-md-12 -->
+        </div> <!-- /row -->
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 icon_rss">
+                  <a href="{{ site.url }}/feed.xml" title="RSS Feed"><img src="{{ site.url }}/assets/images/128px-Feed-icon.svg.png" width="16px" height="16px"></a>
+                </div>
+            <div class="col-md-1"></div>
+        </div> <!-- /row -->
+
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="panel panel-default post">
+                    <h2><a href="{{ page.url }}" class="nodeco">{{ page.title }}</a></h2>
+                    <div class="date">
+                      {{ page.date | date_to_string }}
+                    </div> <!-- /date -->
+                    <div class="post_body">
+                      {{ page.content }}
+                    </div> <!-- /post -->
+            </div> <!-- /panel -->
+          </div> <!-- /col-md-10 -->
+          <div class="col-md-1"></div>
+        </div> <!-- /row -->
+      </div> <!-- /container -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

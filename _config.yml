@@ -1,2 +1,4 @@
-theme: jekyll-theme-minimal
+name: A Hacker's Memorandum
+description: '@snagaが技術ネタをアウトプットしておくブログです。'
+
 repository: snaga/snaga.github.io
