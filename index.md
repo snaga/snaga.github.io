@@ -8,7 +8,7 @@
         {{ post.date | date_to_string }}
       </div> <!-- /date -->
       <div class="post_body">
-        {{ content }}
+        {{ post.content }}
       </div> <!-- /post -->
 
       <div class="social_buttons">
