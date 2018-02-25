@@ -58,8 +58,10 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    .container {
-        padding: 5px;
+    .container-fluid {
+        overflow: hidden;
+        padding-right: 2px;
+        padding-left: 2px;
     }
 }
 
