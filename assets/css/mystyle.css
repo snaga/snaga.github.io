@@ -57,8 +57,13 @@ a {
     width: 100%;
 }
 
+.container-fluid {
+    width: 80%;
+}
+
 @media screen and (max-width: 600px) {
     .container-fluid {
+        width: 100%;
         overflow: hidden;
         padding-right: 2px;
         padding-left: 2px;
