@@ -57,6 +57,12 @@ a {
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 5px;
+    }
+}
+
 body {
     background-color: #EAECEE;
     font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
@@ -73,7 +79,8 @@ h1 {
 @media screen and (max-width: 600px) {
     h1 {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 40px;
+        margin-bottom: 0px;
         font-weight: 900;
         font-size: 5ex;
         font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
@@ -85,10 +92,20 @@ h1 {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 600px) {
+    .author {
+        margin-bottom: 0px;
+    }
+}
 
 .icon_rss {
     text-align: right;
     margin: 0px 0px 5px 0px;
+}
+@media screen and (max-width: 600px) {
+    .icon_rss {
+        margin: 0px 0px 0px 0px;
+    }
 }
 
 h2 {
