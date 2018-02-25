@@ -6,6 +6,16 @@
     background-position: 0% 45%;
     box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.4) inset;
 }
+@media screen and (max-width: 600px) {
+    .main_img {
+        width: 100%;
+        height: 190px;
+        background: url('/assets/images/tumblr_static_c26x4s36inks4soksw008ggc4_2048_v2.jpg');
+        background-size: cover;
+        background-position: 60% 45%;
+        box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.4) inset;
+    }
+}
 
 .prof {
     border: 5px solid #fff;
@@ -20,6 +30,11 @@
     right: 0;
     margin: auto;
     top: 280px;
+}
+@media screen and (max-width: 600px) {
+    .prof {
+        top: 100px;
+    }
 }
 
 .prof img {
@@ -55,6 +70,16 @@ h1 {
     font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 900;
+        font-size: 5ex;
+        font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+    }
+}
+
 .author {
     text-align: center;
     font-size: 1.2em;
@@ -71,6 +96,12 @@ h2 {
     font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
 .date {
     margin-bottom: 10px;
     color: #888;
@@ -80,8 +111,19 @@ h2 {
     background-color: #ffffff;
     padding: 10px 40px 20px 40px;
 }
+@media screen and (max-width: 600px) {
+    .post {
+        background-color: #ffffff;
+        padding: 0px 20px 10px 20px;
+    }
+}
 
 .post_body {
     font-size: large;
     line-height: 1.6em;
+}
+@media screen and (max-width: 600px) {
+    .post_body {
+        font-size: 1em;
+    }
 }
