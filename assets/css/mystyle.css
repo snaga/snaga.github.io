@@ -151,3 +151,16 @@ h2 {
         font-size: 1em;
     }
 }
+
+table, td, th {
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 6px 0px;
+}
+
+td, th {
+    padding: 0px 6px; 
+}
