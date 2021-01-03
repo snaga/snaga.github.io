@@ -13,7 +13,7 @@ title: AWSのData Analytics Specialty認定に合格した
 * 本業はデータベース屋さん。（多分）
 * AWSの認定資格は無し。
 * Data Analytics認定関係だと、S3、Redshift、Glueあたりの経験値が数年程度。
-* 他のクラウドは[Google Cloud Certified Data Engineerには合格するレベル](http://localhost:4000/2020/12/02/google-cloud-certified-professional-data-engineer.html)。
+* 他のクラウドは[Google Cloud Certified Data Engineerには合格するレベル](/2020/12/02/google-cloud-certified-professional-data-engineer.html)。
 
 です。
 
