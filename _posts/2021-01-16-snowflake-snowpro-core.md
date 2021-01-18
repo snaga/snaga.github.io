@@ -23,7 +23,7 @@ title: SnowflakeのSnowPro Core認定に合格した
 ## SnowPro CoreのStudy Guideを見る
 
 まずはともあれ、どのような試験なのか、何をどう勉強するべきなのかを把握するために、SnowProのStudy Guideを見ます。
-Snowflake Universityというラーニングサイト（サービス）があるので、そちらのアカウントが必要になります。
+Snowflake Universityというラーニングサイト（サービス）があるので、そちらのアカウントを作成しておく必要があります（無料）。
 
 * [SnowPro Certification Study Guide](https://snowflakeuniversity.mindtickle.com/#/update/1240380887853059998?series=1172211196159106059)
 
@@ -121,7 +121,7 @@ Study Guideには以下の領域のコンテンツが整備されています。
 
 ## Udemyの「Snowflake Certification Preparation」を受ける（～1週間）
 
-なぜかいつも何かのセールをしているUdemyにSnowPro Coreの模擬試験集があったので、こちらを購入して活用しました。
+いつも何かのセールをしていることでおなじみのUdemyに、SnowPro Coreの模擬試験集があったので、こちらを購入して活用しました。
 
 * [Snowflake Certification Preparation \| Udemy](https://www.udemy.com/course/snowflake-certification-preparation/)
 
@@ -170,7 +170,7 @@ Study Guideには以下の領域のコンテンツが整備されています。
 
 ## 全体を通しての感想
 
-という感じで、今回はどうにか合格ラインには到達したのですが、出題された問題と自分の知識レベルを比較すると、
+という感じで、今回はどうにか合格ラインには到達したのですが、出題された問題と自分の理解レベルを比較すると、
 
 * Storage Integration
 * Table Stream
@@ -181,7 +181,7 @@ Study Guideには以下の領域のコンテンツが整備されています。
 
 当たりの領域が弱いかな、と感じました。
 
-自分が学習してきた方法の中では、これらの領域はあまり手厚くカバーされていなかったので、自分でデータパイプラインを作ってみるなど、何らかの形で補完しておいた方が良かったかもしれません。（試験対策という意味でも、知っていれば確実に点が取れるものも多いので）
+自分が学習してきた方法の中では、これらの領域はあまり手厚くカバーされていなかったので、これらの機能を使って自分でデータパイプラインを作ってみるなど、何らかの形で補完しておいた方が良かったかもしれません。（試験対策という意味でも、知っていれば確実に点が取れるものも多いので）
 
 あと、（処理履歴、Fail-safe、Time Travel、キャッシュなど）各種のデータ保持期間は覚えるしかないので、チートシートなどを活用すると良いのではないかと思います。
 
